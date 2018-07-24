@@ -11,7 +11,6 @@ mod 'garethr/docker',         '5.3.0'
 mod 'puppetlabs/apt',         '2.3.0'
 mod 'stahnma/epel',           '1.2.2'
 mod 'theurbanpenguin-puppet_vim', '0.1.3'
-mod 'puppetlabs-mysql', '5.4.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -24,22 +23,22 @@ mod 'puppetlabs-mysql', '5.4.0'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'http://github.com/bberst/puppet-ssh.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'http://github.com/bberst/puppet-ntp.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'http://github.com/bberst/puppet-role.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'http://github.com/bberst/puppet-profile.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'http://github.com/bberst/puppet-nginx.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-nginx.git',
   :ref => 'master'
 
