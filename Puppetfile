@@ -22,22 +22,22 @@ mod 'stahnma/epel',           '1.2.2'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'http://github.comlinuxacademy/content-ppt-204-ssh.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'http://github.comlinuxacademy/content-ppt-204-ntp.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'http://github.comlinuxacademy/content-ppt-204-role.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'http://github.comlinuxacademy/content-ppt-204-profile.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'http://github.comlinuxacademy/content-ppt-204-nginx.git',
+  :git => 'http://github.com/linuxacademy/content-ppt-204-nginx.git',
   :ref => 'master'
 
