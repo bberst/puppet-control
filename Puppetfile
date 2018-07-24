@@ -23,22 +23,22 @@ mod 'theurbanpenguin-puppet_vim', '0.1.3'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-ssh.git',
+  :git => 'http://github.com/bberst/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-ntp.git',
+  :git => 'http://github.com/bberst/puppet-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-role.git',
+  :git => 'http://github.com/bberst/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-profile.git',
+  :git => 'http://github.com/bberst/puppet-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-nginx.git',
+  :git => 'http://github.com/bberst/puppet-nginx.git',
   :ref => 'master'
 
