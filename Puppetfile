@@ -27,7 +27,7 @@ mod 'ssh',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-ntp.git',
+  :git => 'http://github.com/bberst/puppet-ntp.git',
   :ref => 'master'
 
 mod 'role',
