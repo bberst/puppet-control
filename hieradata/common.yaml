@@ -5,5 +5,15 @@ profile::base::ntp_servers:
  - 2.ubuntu.pool.ntp.org
  - 3.ubuntu.pool.ntp.org
 profile::apache::default_vhost: false
+profile::apache::apache_vhost_servers: {
+  'puppet.local': {
+    port: 80,
+    docroot: '/var/www/puppet'
+  },
+  'puppetb.local': {
+    port: 80,
+    docroot: '/var/www/puppetb'
+  }
+} 
 classes:
  - profile::base
