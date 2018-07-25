@@ -1,7 +1,10 @@
 ---
 profile::nginx::vhosts: 
-  - 'fqdn': 'agent1.local'
-    'port': 80
-    'server_aliases': ''
+ - 'fqdn': 'agent1.local'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'agent1b.local'
+   'port': 80
+   'server_aliases': ''
 classes:
- - profile::nginx
+  - profile::nginx
