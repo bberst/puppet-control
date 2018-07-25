@@ -25,11 +25,11 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-#node 'agent1.local' {
-# notify { 'This matches agent1.local':
-#  message => 'this is agent1 using a node definition in site.pp',
-# }
-#}
+node 'agent1.local' {
+ notify { 'NEW - This matches agent1.local':
+  message => 'NEW - this is agent1 using a node definition in site.pp',
+ }
+}
 
 #node 'puppet.local' {
 #  include pe_repo::platform::el_6_86_64
@@ -42,3 +42,4 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
