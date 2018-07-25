@@ -16,4 +16,4 @@ profile::apache::apache_vhost_servers: {
   }
 }
 classes:
-   - profile::base
+  - profile::base
