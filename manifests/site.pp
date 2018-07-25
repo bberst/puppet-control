@@ -25,20 +25,20 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+#node 'agent1.local' {
+# notify { 'This matches agent1.local':
+#  message => 'this is agent1 using a node definition in site.pp',
+# }
+#}
+
+node 'puppet.local' {
+#  include pe_repo::platform::el_6_86_64
+#  include pe_repo::platform::ubuntu_1204_amd64
+}
+
 node default {
   hiera_include('classes')
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
 }
-
-node 'agent1.local' {
- notify { 'This matches agent1.local':
-  message => 'this is agent1 using a node definition in site.pp',
- }
-}
-
-#node 'puppet.local' {
-#  include pe_repo::platform::el_6_86_64
-#  include pe_repo::platform::ubuntu_1204_amd64
-#}
