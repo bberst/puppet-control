@@ -35,7 +35,7 @@ mod 'role',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-profile.git',
+  :git => 'http://github.com/bberst/puppet-profile.git',
   :ref => 'master'
 
 mod 'nginx',
