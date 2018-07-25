@@ -31,7 +31,7 @@ mod 'ntp',
   :ref => 'master'
 
 mod 'role',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-role.git',
+  :git => 'http://github.com/bberst/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
