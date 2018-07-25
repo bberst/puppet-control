@@ -1,5 +1,12 @@
 class profile::base {
-
-  #the base profile should include component modules that will be on all nodes
-
+  $ntp_servers = [
+    '0.ubuntu.pool.ntp.org',
+    '1.ubuntu.pool.ntp.org',
+    '2.ubuntu.pool.ntp.org',
+    '3.ubuntu.pool.ntp.org',
+  ]
+) {
+  class { '::ntp': 
+    servers => $ntp_servers,
+  }
 }
