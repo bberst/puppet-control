@@ -30,3 +30,14 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node 'agent1.local' {
+ notify { 'This matches agent1.local':
+  message => 'this is agent1 using a node definition in site.pp',
+ }
+}
+
+node 'puppet.local' {
+  include pe_repo::platform::el_6_86_64
+  include pe_repo::platform::ubuntu_1204_amd64
+}
