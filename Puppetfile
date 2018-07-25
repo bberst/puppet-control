@@ -22,9 +22,9 @@ mod 'theurbanpenguin-puppet_vim', '0.1.3'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ssh',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-ssh.git',
-  :ref => 'master'
+#mod 'ssh',
+#  :git => 'http://github.com/linuxacademy/content-ppt-204-ssh.git',
+#  :ref => 'master'
 
 mod 'ntp',
   :git => 'http://github.com/bberst/puppet-ntp.git',
