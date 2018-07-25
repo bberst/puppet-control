@@ -39,6 +39,6 @@ mod 'profile',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'http://github.com/linuxacademy/content-ppt-204-nginx.git',
+  :git => 'http://github.com/bberst/puppet-nginx.git',
   :ref => 'master'
 
