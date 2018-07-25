@@ -38,7 +38,7 @@ node 'agent1.local' {
  }
 }
 
-node 'puppet.local' {
-  include pe_repo::platform::el_6_86_64
-  include pe_repo::platform::ubuntu_1204_amd64
-}
+#node 'puppet.local' {
+#  include pe_repo::platform::el_6_86_64
+#  include pe_repo::platform::ubuntu_1204_amd64
+#}
